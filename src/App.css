@@ -1,0 +1,30 @@
+body{
+    background-color: #F8F6F4;
+}
+.App{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+.Counter{
+ background-color: #C4DFDF;  
+ padding: 70px;
+ border-radius: 30px;
+ text-align: center;
+ color:#2e6464; 
+ box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.2); 
+}
+button{
+    padding: 10px;
+    margin: 3px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4f9696;
+    color:#F8F6F4;
+    font-size: 15px
+    ;
+}
+button:hover{
+    opacity: 0.8;
+}
